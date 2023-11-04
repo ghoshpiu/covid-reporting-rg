@@ -1,0 +1,26 @@
+{
+	"name": "ds_covidreport_population",
+	"properties": {
+		"description": "This is the raw file of the population data during the covid period obtain from official website",
+		"linkedServiceName": {
+			"referenceName": "ls_blob_covidreport1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "population_by_age.tsv.gz",
+				"container": "population-priya"
+			},
+			"columnDelimiter": "\t",
+			"compressionCodec": "gzip",
+			"compressionLevel": "Optimal",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
