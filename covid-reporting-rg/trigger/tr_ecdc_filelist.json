@@ -1,0 +1,17 @@
+{
+	"name": "tr_ecdc_filelist",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-11-07T21:08:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
