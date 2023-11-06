@@ -506,8 +506,9 @@
 					"recurrence": {
 						"frequency": "Day",
 						"interval": 1,
-						"startTime": "2023-11-07T21:08:00",
-						"timeZone": "India Standard Time"
+						"startTime": "2023-11-06T21:15:00",
+						"timeZone": "India Standard Time",
+						"schedule": {}
 					}
 				}
 			},
