@@ -13,6 +13,9 @@
 		},
 		"ls_datalake_covidreport2_properties_typeProperties_url": {
 			"value": "https://covidreport2datalake.dfs.core.windows.net/"
+		},
+		"ls_opendata_ecdc_europa_eu_priya_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
 		}
 	}
 }
